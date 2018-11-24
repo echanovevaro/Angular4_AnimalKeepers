@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exis",
+				"existe"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"new",
+				"newRelation"
+			],
+			[
+				"isF",
+				"isFollowing"
+			],
+			[
+				"con",
+				"content\t = '' Style CSS"
+			],
+			[
+				"co",
+				"content\t Style CSS"
+			],
+			[
+				"log",
+				"logedUserId"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"rev",
+				"review"
+			],
+			[
+				"fin",
+				"findOne"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"setT",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"floor",
+				"floorDown"
+			],
+			[
+				"p",
+				"push\t( items_..: any ): Array Array"
+			],
+			[
+				"dir",
+				"direction\t = 'initial' Style CSS"
+			],
+			[
+				"origin",
+				"originFloor"
+			],
+			[
+				"st",
+				"stop\t(): void Window"
+			],
+			[
+				"_p",
+				"_passengersEnter"
+			],
+			[
+				"wa",
+				"waitingList"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/app/app.component.html",
+			"settings":
+			{
+				"buffer_size": 546,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/JSLint/JSLint.sublime-build",
+					""
+				],
+				[
+					"Packages/User/js.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/node.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"all",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"jsl",
+				"JSLint"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/components",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/components/home",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/components/tienda"
+	],
+	"file_history":
+	[
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/components/tienda/tienda.component.ts",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/components/tienda/tienda.component.html",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/app.component.html",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/components/tienda/tienda.component.css",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/app.component.ts",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/src/app/app.module.ts",
+		"/home/alvaro/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/curso-angular4-avanzado.sublime-project",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/tsconfig.json",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/tslint.json",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/TypeScript/TypeScript.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/TypeScript/Preferences.sublime-settings",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/curso-angular4-avanzado.sublime-workspace",
+		"/home/alvaro/Escritorio/BELEN/Curso-Angular4/curso-angular4/.gitignore",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/app.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/controllers/animal.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/routes/animal.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/routes/user.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/controllers/user.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/middlewares/authenticated.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/models/user.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/package.json",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/index.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/services/jwt.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/upload/users.js",
+		"/home/alvaro/Escritorio/BELEN/curso-angular4-avanzado/controlers/user.js",
+		"/home/alvaro/Escritorio/BELEN/lab-express-linkedin-clone-master/starter-code/views/authentication/signup.ejs",
+		"/home/alvaro/Escritorio/BELEN/lab-express-linkedin-clone-master/starter-code/public/stylesheets/style.css",
+		"/home/alvaro/Escritorio/BELEN/lab-express-linkedin-clone-master/starter-code/views/profiles/edit.ejs",
+		"/home/alvaro/Escritorio/BELEN/lab-express-linkedin-clone-master/starter-code/views/posts/new.ejs",
+		"/home/alvaro/Escritorio/BELEN/lab-express-linkedin-clone-master/starter-code/routes/users.js",
+		"/home/alvaro/Escritorio/BELEN/twitter-lab/node_modules/bcrypt/node_modules/minizlib/index.js",
+		"/home/alvaro/Escritorio/BELEN/twitter-lab/routes/index.js",
+		"/home/alvaro/Escritorio/BELEN/twitter-lab/views/index.ejs",
+		"/home/alvaro/Escritorio/BELEN/twitter-lab/views/tweets/index.ejs",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/app.js",
+		"/home/alvaro/Escritorio/BELEN/twitter-lab/views/layouts/login.ejs",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/routes/auth-routes.js",
+		"/home/alvaro/Escritorio/BELEN/twitter-lab/routes/auth/authController.js",
+		"/home/alvaro/Escritorio/Code/labs/semana 4/twitter-lab/app.js",
+		"/home/alvaro/Escritorio/BELEN/ironshop/app.js",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/package.json",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/models/user.js",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/views/auth/signup.ejs",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/views/auth/login.ejs",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/views/secret.ejs",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/routes/site-routes.js",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/views/home.ejs",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/public/stylesheets/style.css",
+		"/home/alvaro/Escritorio/BELEN/basic-auth/routes/index.js",
+		"/home/alvaro/Escritorio/BELEN/lab-mongoose-movies-master/starter-code/movies/views/index.ejs",
+		"/home/alvaro/Escritorio/BELEN/lab-mongoose-movies-master/starter-code/movies/bin/seeds.js",
+		"/home/alvaro/Descargas/sophos-av/install.sh",
+		"/home/alvaro/Escritorio/BELEN/ironshop/models/product.js",
+		"/home/alvaro/Escritorio/BELEN/ironshop/routes/products.js",
+		"/home/alvaro/Escritorio/BELEN/ironshop/views/products/new.ejs",
+		"/home/alvaro/Escritorio/BELEN/lab-mongoose-drones-master/starter-code/app.js",
+		"/home/alvaro/Escritorio/BELEN/ironshop/views/products/index.ejs",
+		"/home/alvaro/Escritorio/BELEN/ironshop/views/index.ejs",
+		"/home/alvaro/Escritorio/BELEN/ironshop/prueba/example-project/package.json",
+		"/home/alvaro/Escritorio/BELEN/ironshop/bin/www",
+		"/home/alvaro/Escritorio/BELEN/ironshop/package.json",
+		"/home/alvaro/Escritorio/BELEN/ironshop/prueba/example-project/app.js",
+		"/home/alvaro/Escritorio/BELEN/lab-express-spotify-master/starter_code/express-spotify-app/package.json",
+		"/home/alvaro/Escritorio/BELEN/lab-express-spotify-master/starter_code/express-spotify-app/views/seeker.ejs",
+		"/home/alvaro/Escritorio/BELEN/lab-express-spotify-master/starter_code/express-spotify-app/views/layout.ejs",
+		"/home/alvaro/Escritorio/BELEN/lab-express-spotify-master/starter_code/express-spotify-app/app.js",
+		"/home/alvaro/Escritorio/BELEN/lab-express-basic-site-master/starter-code/public/cool-cat.jpg",
+		"/home/alvaro/Escritorio/BELEN/lab-express-basic-site-master/starter-code/package.json",
+		"/home/alvaro/Escritorio/BELEN/lab-express-basic-site-master/starter-code/public/stylesheets/style.css",
+		"/home/alvaro/Escritorio/BELEN/foods/package.json",
+		"/home/alvaro/Escritorio/BELEN/lab-express-basic-site-master/starter-code/app.js",
+		"/home/alvaro/Escritorio/BELEN/lab-mongo-shop-master/starter-code/questions.js",
+		"/home/alvaro/Escritorio/BELEN/lab-mongo-shop-master/starter-code/database.js",
+		"/home/alvaro/Escritorio/BELEN/lab-mongo-shop-master/starter-code/main.js",
+		"/home/alvaro/Escritorio/BELEN/lab-mongo-shop-master/starter-code/package.json",
+		"/home/alvaro/Escritorio/BELEN/lab-mongo-shop-master/starter-code/paste-queries.js",
+		"/home/alvaro/Escritorio/BELEN/lab-mongo-shop-master/starter-code/data/products.json",
+		"/home/alvaro/Escritorio/BELEN/lab-mongo-shop-master/starter-code/data/users.json",
+		"/home/alvaro/Escritorio/BELEN/lab-intro-node-master/starter-code/index.js",
+		"/home/alvaro/Escritorio/BELEN/lab-node-elevator-master/starter_code/elevator.js",
+		"/home/alvaro/Escritorio/BELEN/lab-node-elevator-master/starter_code/index.js",
+		"/home/alvaro/Escritorio/BELEN/lab-node-elevator-master/starter_code/person.js",
+		"/home/alvaro/Escritorio/console.log(\"hola\");",
+		"/home/alvaro/.config/sublime-text-3/Packages/JSLint/JSLint.sublime-settings",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/js.sublime-build",
+		"/home/alvaro/.config/sublime-text-3/Packages/User/node.sublime-build",
+		"/home/alvaro/Escritorio/BELEN/lab-intro-node-master/starter-code/package.json"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/app/app.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 108.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 242.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "curso-angular4-avanzado.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

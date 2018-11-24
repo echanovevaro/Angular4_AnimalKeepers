@@ -1,0 +1,7 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+@media screen and (max-width: 575px){
+    .navbar-link{
+    	@extend .border-bottom;
+    }
+}
