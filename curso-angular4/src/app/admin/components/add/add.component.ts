@@ -5,7 +5,7 @@ import { Component, DoCheck, OnInit } from '@angular/core';
   templateUrl: './add.component.html',
   
 })
-	export class MainComponent  {
+	export class AddComponent  {
 	  title = 'Añadir';
 	 
 

@@ -5,7 +5,7 @@ import { Component, DoCheck, OnInit } from '@angular/core';
   templateUrl: './list.component.html',
   
 })
-	export class MainComponent  {
+	export class ListComponent  {
 	  title = 'Listado';
 	 
 

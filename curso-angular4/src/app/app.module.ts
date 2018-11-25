@@ -9,6 +9,7 @@ import { routing, appRoutingProviders } from './app.routing';
 
 //Importar nuestro módulo
 import { ModuloEmailModule} from './moduloemail/moduloemail.module';
+import { AdminModule } from './admin/admin.module';
 
 // Componentes
 import { AppComponent } from './app.component';
@@ -35,7 +36,8 @@ import { KeepersComponent } from './components/keepers/keepers.component';
     FormsModule,
     routing,
     FontAwesomeModule,
-    ModuloEmailModule
+    ModuloEmailModule,
+    AdminModule
   ],
   providers: [
     appRoutingProviders
