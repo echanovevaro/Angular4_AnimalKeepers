@@ -99,7 +99,7 @@
 			"file": "src/app/app.component.html",
 			"settings":
 			{
-				"buffer_size": 546,
+				"buffer_size": 1762,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -314,15 +314,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 546,
+						"buffer_size": 1762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								430,
-								430
+								0,
+								0
 							]
 						],
 						"settings":

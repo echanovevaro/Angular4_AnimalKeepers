@@ -1,5 +1,8 @@
-import{ Component } from '@angular/core';
+import{ Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+
+declare var jQuery:any;
+declare var $:any;
 
 @Component({
 	selector:'tienda',
@@ -15,6 +18,13 @@ export class TiendaComponent {
 
 	constructor(){
 		this.titulo = 'Esta es la tienda';
+	}
+	ngOnInit(){
+		$('#textojq').hide();
+		$('#botonjq').click(function(){
+			$('#textojq').slideToggle();
+		});
+		//$('#caja').dotdotdot({});
 	}
 
 	mostrarNombre(){
