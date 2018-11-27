@@ -13,7 +13,18 @@ body, html{
 
 .navbar-nav .active{
 	margin-top: 4px;
-	border-bottom: 3px solid orange;
+	border-bottom: 2px solid orange !important;
+
+}
+
+.navbar-defaut .navbar-nav>li>a{
+	transition:  all 300ms;
+	border-bottom: 2px solid transparent;
+}
+
+.navbar-defaut .navbar-nav>li>a:hover{
+	transition:  all 300ms;
+	border-bottom: 2px solid orange;
 }
 
 .navbar{
