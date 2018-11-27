@@ -21,8 +21,10 @@ export class TiendaComponent {
 	}
 	ngOnInit(){
 		$('#textojq').hide();
+		$('#caja').hide();
 		$('#botonjq').click(function(){
 			$('#textojq').slideToggle();
+			$('#caja').slideToggle();
 		});
 		//$('#caja').dotdotdot({});
 	}

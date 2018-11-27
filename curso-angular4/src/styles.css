@@ -12,6 +12,7 @@ body, html{
 }
 
 .navbar-nav .active{
+	margin-top: 4px;
 	border-bottom: 3px solid orange;
 }
 
