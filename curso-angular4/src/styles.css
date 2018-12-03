@@ -30,3 +30,11 @@ body, html{
 .navbar{
 	padding: 0 1rem !important;
 }
+
+.pointer{
+	cursor: pointer;
+}
+
+.menu-avatar{
+	height: 3rem;
+}

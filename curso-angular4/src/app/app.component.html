@@ -27,31 +27,76 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" [routerLink]="['/tienda']" [routerLinkActive]="['active']">
-							<fa-icon icon="shopping-cart" size="sm"></fa-icon>
+							<i class="fas fa-shopping-cart fa-sm"></i>
 							Tienda
 						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" [routerLink]="['/contacto']" [routerLinkActive]="['active']">
-							<fa-icon icon="envelope" size="sm"></fa-icon>
+							<i class="fas fa-envelope fa-sm"></i>
 							Contacto
 						</a>
 					</li>
+					<li class="nav-item dropdown ml-auto" *ngIf="!identity" >
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 		data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Entra!
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				          <a class="dropdown-item" [routerLink]="['/registro']" [routerLinkActive]="['active']">	<i class="fas fa-user-plus fa-sm"></i>
+							  Registro
+				          </a>
+				          <a class="dropdown-item" [routerLink]="['/login']" [routerLinkActive]="['active']">	<i class="fas fa-sign-in-alt"></i>
+							  Login
+				          </a>
+				        </div>
+					</li>
+					<li class="nav-item dropdown ml-auto" *ngIf="identity" >
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 		data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<img class="rounded menu-avatar" *ngIf="identity.image" src ="{{ url + 'get-image-file/' + identity.image}}">
+				          	{{identity.name}}
+						
+						
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				          <a *ngIf="identity && identity.role == 'ROLE_ADMIN'" class="dropdown-item" [routerLink] ="['/admin-panel']"><fa-icon icon="tasks" size="sm" >	</fa-icon>   
+				          	 Administración
+				          </a>
+				          <a class="dropdown-item" [routerLink] ="['/mis-datos']"><fa-icon icon="cog" size="sm" >	</fa-icon>   
+				          	 Mis datos
+				          </a>
+				          <a class="dropdown-item pointer" (click)="logout()" href="#">
+				          	<fa-icon icon="sign-out-alt" size="sm"></fa-icon>   
+				          	Salir
+				          </a>
+				        </div>
+					</li>
 				</ul>
-				<ul class="nav navbar-nav navbar-toggler-right" >
+<!--				<ul class="nav navbar-nav navbar-toggler-right"*ngIf="!identity" >
 					<li class="nav-item">
 						<a class="nav-link" [routerLink]="['/registro']" [routerLinkActive]="['active']">
-							<fa-icon icon="user" size="sm"></fa-icon>
+							<i class="fas fa-user-plus fa-sm"></i>
 							Registro
 						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" [routerLink]="['/login']" [routerLinkActive]="['active']">
-							<fa-icon icon="envelope" size="sm"></fa-icon>
+							<i class="fas fa-sign-in-alt"></i>
 							Login
 						</a>
 					</li>
 				</ul>
+
+				<ul class="nav navbar-nav navbar-toggler-right"*ngIf="identity" >
+					<div class="dropdown">
+	  					<button class="btn bg-transparent dropdown-toggle" type="button"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								{{identity.name}}
+					 	</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" [routerLink] ="['/mis-datos']"><fa-icon icon="cog" size="sm" ></fa-icon>   Mis datos</a>
+							<a class="dropdown-item pointer" (click)="logout()" href="#"><fa-icon icon="sign-out-alt" size="sm"></fa-icon>   Salir</a>
+						</div>
+					</div>
+				</ul> -->
 			
 		</nav>
 	</div>

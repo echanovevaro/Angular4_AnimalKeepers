@@ -1,13 +1,17 @@
 <div class="col-lg-6">
 	<h1>{{title}}</h1>
+
 	<div class="alert alert-success" *ngIf= "status == 'success'">
-		Registro completado correctamante,<a [routerLink]="['/login']"> Identifícate aquí </a>
+		Has actualizado tu información correctamente
 	</div>
 		<div class="alert alert-danger" *ngIf= "status == 'error'">
-		El registro no se ha completado correctamante
+		No has actualizado tus datos
 	</div>
 
-	<form #registerForm="ngForm" (ngSubmit)="onSubmit(); registerForm.reset()" class="col-lg-10">
+	<form #userEditForm="ngForm" (ngSubmit)="onSubmit()" class="col-lg-10">
+
+
+	
 		<p>
 			<label>Nombre</label>
 			<input type="text" name="name" #name="ngModel" [(ngModel)]="user.name" class="form-control" required/>
@@ -35,15 +39,16 @@
 				El email es obligatório
 			</span>
 		</p>
-
+		<img class="img-thumbnail" *ngIf="user.image" src ="{{ url + 'get-image-file/' + user.image}}">
 		<p>
-			<label>Contraseña</label>
-			<input type="password" name="password" #password="ngModel" [(ngModel)]="user.password" class="form-control" required/>
-			<span *ngIf="!password.valid && password.touched">
-				El password es obligatório
-			</span>
+			<label>Sube tu avatar</label>
+			<input type="file" placeholder="Subir imagen" (change)="fileChangeEvent($event)"/>
 		</p>
-		<input type="submit" value="{{title}}" class="btn btn-primary" [disabled]="!registerForm.form.valid "/>
+
+	
+		<input type="submit" value="{{title}}" class="btn btn-primary" [disabled]="!userEditForm.form.valid"/>
+		
+
+
 	</form>
-	<hr/>  
 </div>

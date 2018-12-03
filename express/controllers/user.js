@@ -94,11 +94,15 @@ function login(req, res ){
 
 	
 		if(err){
-			res.status(500).send({message:'Error al comprobar el usuario'});
+			res.status(500).send({mensaje:'Error al comprobar el usuario'});
 		}else{
 			if(user){
 				bcrypt.compare(password, user.password,(err ,check ) =>{
-					if(check){
+					if(err) {
+						res.status(500).send({
+							mensaje:'El usuario no ha podido logearse correctamente'
+						});
+					} else if(check){
 						//comprobar y generar el token
 						if(params.gettoken){
 							//devolver token jwt
@@ -110,14 +114,12 @@ function login(req, res ){
 							res.status(200).send({user});
 						}
 					
-					}else{
-
-						res.status(404).send({
-							message:'El usuario no ha podido logearse correctamente'
-						});
+					} else {
+						res.status(401).send({mensaje:'El password es incorrecto'});
 					}
-				
 				});	
+			} else {
+				res.status(401).send({mensaje:'No se ha encontrado al usuario'});
 			}
 		}
 
@@ -129,6 +131,7 @@ function updateUser(req, res){
 
 	const userId = req.params.id;
 	const update = req.body;
+	delete update.password;
 
 	if(userId != req.user.sub){
 		res.status(500).send({
