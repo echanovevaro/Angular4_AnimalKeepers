@@ -17,6 +17,11 @@ import { ListComponent } from './components/list/list.component';
 import { AddComponent } from './components/add/add.component';
 import { EditComponent } from './components/edit/edit.component';
 
+//servicios
+import { AdminGuard } from '../services/admin.guard';
+import { UserService } from '../services/user.service';
+
+
 @NgModule({
 	declarations: [
 		MainComponent,
@@ -37,7 +42,10 @@ import { EditComponent } from './components/edit/edit.component';
 		AddComponent,
 		EditComponent
 	],
-	providers: []
+	providers: [
+	AdminGuard,
+	UserService
+	]
 })
 export class AdminModule {
 	 constructor() {
