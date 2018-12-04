@@ -23,6 +23,8 @@ import { KeepersComponent } from './components/keepers/keepers.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { UserEditComponent } from './components/user-edit/user-edit.component';
+import { AnimalDetailComponent } from './components/animal-detail/animal-detail.component';
+
 
 @NgModule({
   declarations: [
@@ -35,7 +37,8 @@ import { UserEditComponent } from './components/user-edit/user-edit.component';
     KeepersComponent,
     RegisterComponent,
     LoginComponent,
-    UserEditComponent
+    UserEditComponent,
+    AnimalDetailComponent
 
   ],
   imports: [

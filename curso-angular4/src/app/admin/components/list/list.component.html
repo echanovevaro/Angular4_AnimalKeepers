@@ -9,18 +9,18 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr *ngFor="let n of numbers; let i = index">
-				<td>Oso Panda {{ i + 1 }}</td>
-				<td>2012</td>
+			<tr *ngFor="let animal of animals">
+				<td>{{animal.name}}</td>
+				<td>{{animal.year}}</td>
 				<td>
-					<button class="btn btn-sm btn-primary ">
-						<fa-icon icon="pen" size="btn-sm"></fa-icon>
-						Editar
-					</button>
-					<button class="btn btn-sm btn-success m-1">
+					<a [routerLink]="['/animal',animal._id]" class="btn btn-sm btn-success">
 						<fa-icon icon="eye" size="btn-sm"></fa-icon>
 						Ver
-					</button>
+					</a>
+					<a [routerLink]="['/admin-panel/editar',animal._id]"  class="btn btn-sm btn-primary m-1">
+						<fa-icon icon="pen" size="btn-sm"></fa-icon>
+						Editar
+					</a>
 					<button class="btn btn-sm btn-danger">
 						<fa-icon icon="trash-alt" size="btn-sm"></fa-icon>
 						Borrar

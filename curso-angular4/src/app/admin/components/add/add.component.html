@@ -1,20 +1,44 @@
-<h4>{{title}}</h4>
-<form>
-	<p>
-		<label>Nombre</label>
-		<input type="text" class="form-control"/>
-	</p>
+<div class="col-lg-10">
+	<h4>{{title}}</h4>
+	<form #formAdd="ngForm" (ngSubmit)="onSubmit()">
+		<p>
+			<label>Nombre</label>
+			<input type="text" name="name" #name="ngModel" [(ngModel)]="animal.name" class="form-control" required/>
+			<span *ngIf="!name.valid && name.touched">
+				El nombre es obligatório
+			</span>
+		</p>
+
+			<p>
+			<label>Descripción</label>
+			<textarea name="description" #description="ngModel" [(ngModel)]="animal.description"  class="form-control" required></textarea> 
+			<span *ngIf="!description.valid && description.touched">
+				La descripción es obligatória
+			</span>
+		</p>
 
 		<p>
-		<label>Descripción</label>
-		<textarea class="form-control"></textarea> 
-	</p>
+			<label>Año</label>
+			<input type="text" name="year" #year="ngModel" [(ngModel)]="animal.year"  class="form-control" required/>
+			<span *ngIf="!year.valid && year.touched">
+				El año es obligatório
+			</span>
+		</p>
 
-		<p>
-		<label>Año</label>
-		<input type="text" class="form-control"/>
-	</p>
-
-	<input type="submit" value="Crear nuevo" class="btn btn-success"/>
+		<div *ngIf="is_edit && animal.image">
+			
+			<img  class="img-thumbnail col-lg-4 pull-left" src="{{url + 'get-image-animal/'+ animal.image}}">
+			
+		</div>
 	
-</form>
+
+		<div class="custom-file mb-3">
+			<input type="file" class="custom-file-input form-control" id="customFile" (change)="fileChangeEvent($event)">
+			<label class="custom-file-label" for="customFile">Choose image file</label>
+		</div>
+		
+
+		<input type="submit" value="{{title}}" class="btn btn-success"/>
+		
+	</form>
+</div>
